@@ -1,3 +1,4 @@
 class StaticController < ApplicationController
-  get about
+  def hello_world
+    "hello_world"
 end
